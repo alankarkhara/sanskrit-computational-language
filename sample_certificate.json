@@ -1,0 +1,92 @@
+{
+  "payload": {
+    "schema": "scl.compiler.grammar-chain/1",
+    "source_sha256": "fec71d05c517268f4f7402497000dc5504cccd87223f26b8c27637c57d2164ae",
+    "ir_sha256": "17a134b3c10ff41f6a25afd471824fc705117874376dcb10ee6f1ab352e9d329",
+    "grammar": [
+      {
+        "request": {
+          "predicate": "paṭhati",
+          "tokens": [
+            "rāmaḥ",
+            "phalam"
+          ]
+        },
+        "certificate": {
+          "payload": {
+            "schema": "scl.grammar.certificate/1",
+            "predicate": "paṭhati",
+            "tokens": [
+              {
+                "index": 0,
+                "surface": "rāmaḥ",
+                "candidates": [
+                  {
+                    "lemma": "rāma",
+                    "vibhakti": "prathamā",
+                    "vacana": "ekavacana",
+                    "karaka": "kartā",
+                    "predicate": "paṭhati",
+                    "rules": [
+                      "NOM-A_M-01",
+                      "CTX-FRAME-01",
+                      "CTX-LICENSE-01",
+                      "CTX-AMBIG-01",
+                      "AST-1.4.54"
+                    ],
+                    "sutra_status": "definition-only",
+                    "morphology_status": "local_table"
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "surface": "phalam",
+                "candidates": [
+                  {
+                    "lemma": "phala",
+                    "vibhakti": "dvitīyā",
+                    "vacana": "ekavacana",
+                    "karaka": "karma",
+                    "predicate": "paṭhati",
+                    "rules": [
+                      "NOM-A_N-02",
+                      "CTX-FRAME-01",
+                      "CTX-LICENSE-01",
+                      "CTX-AMBIG-01",
+                      "AST-1.4.49"
+                    ],
+                    "sutra_status": "definition-only",
+                    "morphology_status": "local_table"
+                  },
+                  {
+                    "lemma": "phala",
+                    "vibhakti": "prathamā",
+                    "vacana": "ekavacana",
+                    "karaka": "kartā",
+                    "predicate": "paṭhati",
+                    "rules": [
+                      "NOM-A_N-01",
+                      "CTX-FRAME-01",
+                      "CTX-LICENSE-01",
+                      "CTX-AMBIG-01",
+                      "AST-1.4.54"
+                    ],
+                    "sutra_status": "definition-only",
+                    "morphology_status": "local_table"
+                  }
+                ]
+              }
+            ],
+            "status": "ambiguous",
+            "scope": "finite independent-token licensing; not a full syntactic parse"
+          },
+          "sha256": "16b68f45f1a2208c00cf87a8b84104d4e3eb2bdf719092c4a17ec5b881622eb1"
+        }
+      }
+    ],
+    "rule_registry_sha256": "aec877ba9c4e6f834633ee46831d77ab51e40954fa1a4eebc68a2ef041909bfe",
+    "assurance": "recompilation and deterministic replay, no independent linguistic review"
+  },
+  "sha256": "93a2d69651cab7c9f9e062b9e42a47ab08f0538023de2e4124c82239e94c7f50"
+}

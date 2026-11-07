@@ -1,0 +1,22 @@
+{
+  "version": "0.9.3",
+  "baseline": "0.9.2",
+  "previous_files": 294,
+  "preserved": 294,
+  "missing": [],
+  "modified": [],
+  "new_files": [
+    "LIVE093_CERTIFICATE.json",
+    "LIVE093_TRANSCRIPT.scl",
+    "agent093_process.py",
+    "core080/examples/native_clarification_093.scl",
+    "core080/native093.py",
+    "live093_demo.py",
+    "native093_cli.py",
+    "tests/test_native093.py"
+  ],
+  "regression_tests": 501,
+  "machine_checked_proof": false,
+  "agent_demonstration": "two separate rule-driven processes; no independent LLM inference",
+  "source": "core080/examples/native_clarification_093.scl"
+}

@@ -1,0 +1,11 @@
+{
+  "baseline": "v0.7.5",
+  "inherited_files": 186,
+  "missing": [],
+  "changed": [],
+  "regression_returncode": 0,
+  "regression_summary": [
+    "",
+    "OK"
+  ]
+}

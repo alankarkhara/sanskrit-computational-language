@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "field": "object_type",
+      "reason": "missing",
+      "question": "What is its declared type?"
+    },
+    {
+      "field": "result_type",
+      "reason": "missing",
+      "question": "What type of result?"
+    },
+    {
+      "field": "effect",
+      "reason": "missing",
+      "question": "Which effects are permitted?"
+    },
+    {
+      "field": "constraints",
+      "reason": "missing",
+      "question": "Which restrictions apply?"
+    },
+    {
+      "field": "permission",
+      "reason": "missing",
+      "question": "What permission mode has the owner authorized?"
+    }
+  ],
+  "state": "approved",
+  "contract": {
+    "requester": "User",
+    "executor": "AgentB",
+    "operation": "gaṇaya_śabdān",
+    "object_id": "doc42",
+    "object_type": "UTF8Document",
+    "result_type": "Int64",
+    "effect": "śuddha",
+    "constraints": [
+      "source_only",
+      "no_modify"
+    ],
+    "permission": "internal"
+  },
+  "integrity_valid": true,
+  "executed": false
+}

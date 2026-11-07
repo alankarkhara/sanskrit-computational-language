@@ -1,0 +1,101 @@
+{
+  "scl_cases": [
+    {
+      "case": "role_order",
+      "expected_accept": true,
+      "accepted": true,
+      "value": [
+        5
+      ],
+      "independent_certificate_verified": true,
+      "pass": true,
+      "elapsed_ms": 1.482
+    },
+    {
+      "case": "duplicate_role",
+      "expected_accept": false,
+      "accepted": false,
+      "value": null,
+      "independent_certificate_verified": false,
+      "pass": true,
+      "elapsed_ms": 0.056
+    },
+    {
+      "case": "missing_role",
+      "expected_accept": false,
+      "accepted": false,
+      "value": null,
+      "independent_certificate_verified": false,
+      "pass": true,
+      "elapsed_ms": 0.048
+    },
+    {
+      "case": "role_type_error",
+      "expected_accept": false,
+      "accepted": false,
+      "value": null,
+      "independent_certificate_verified": false,
+      "pass": true,
+      "elapsed_ms": 0.057
+    },
+    {
+      "case": "lazy_branch",
+      "expected_accept": true,
+      "accepted": true,
+      "value": [
+        4
+      ],
+      "independent_certificate_verified": true,
+      "pass": true,
+      "elapsed_ms": 0.529
+    },
+    {
+      "case": "neutral_multiplication",
+      "expected_accept": true,
+      "accepted": true,
+      "value": [
+        8
+      ],
+      "independent_certificate_verified": true,
+      "pass": true,
+      "elapsed_ms": 0.463
+    },
+    {
+      "case": "integer_overflow",
+      "expected_accept": false,
+      "accepted": false,
+      "value": null,
+      "independent_certificate_verified": false,
+      "pass": true,
+      "elapsed_ms": 0.077
+    },
+    {
+      "case": "unknown_function",
+      "expected_accept": false,
+      "accepted": false,
+      "value": null,
+      "independent_certificate_verified": false,
+      "pass": true,
+      "elapsed_ms": 0.024
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "reference_runtimes": [
+    {
+      "language": "Python",
+      "available": true,
+      "returncode": 0,
+      "output": "5",
+      "elapsed_process_ms": 1515.483
+    },
+    {
+      "language": "Node",
+      "available": true,
+      "returncode": 0,
+      "output": "5",
+      "elapsed_process_ms": 111.3
+    }
+  ],
+  "caution": "Python and Node programs exercise an equivalent role-order task only, not full comparable static semantics or compiler speed."
+}

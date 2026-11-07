@@ -1,0 +1,72 @@
+{
+  "schema": "scl.grammar.review-register/1",
+  "external_review": "NOT_PERFORMED",
+  "cases": [
+    {
+      "id": "C01",
+      "review_status": "PENDING",
+      "source_notes": "Neuter phalam is nominative/accusative singular; retain both local readings pending sentence-level selection and semantic review.",
+      "expert_signature": null
+    },
+    {
+      "id": "C02",
+      "review_status": "PENDING",
+      "source_notes": "Dual syncretism narrowed by predicate; not a whole-sentence proof",
+      "expert_signature": null
+    },
+    {
+      "id": "C03",
+      "review_status": "PENDING",
+      "source_notes": "Contextual instrumental reading",
+      "expert_signature": null
+    },
+    {
+      "id": "C04",
+      "review_status": "PENDING",
+      "source_notes": "Contextual ablative reading",
+      "expert_signature": null
+    },
+    {
+      "id": "C05",
+      "review_status": "PENDING",
+      "source_notes": "Local explicitly scoped exception; independent linguistic review pending",
+      "expert_signature": null
+    },
+    {
+      "id": "C06",
+      "review_status": "PENDING",
+      "source_notes": "Unsupported genitive construction: do not hallucinate a kāraka",
+      "expert_signature": null
+    },
+    {
+      "id": "C07",
+      "review_status": "PENDING",
+      "source_notes": "Out-of-vocabulary token preserves incompleteness",
+      "expert_signature": null
+    },
+    {
+      "id": "C08",
+      "review_status": "PENDING",
+      "source_notes": "Ablative dual candidate under a restricted go-frame; adjudication requires context and expert review.",
+      "expert_signature": null
+    },
+    {
+      "id": "C09",
+      "review_status": "PENDING",
+      "source_notes": "Ambiguous subject/object attachment; evaluate all licensed analyses, not first noun.",
+      "expert_signature": null
+    },
+    {
+      "id": "C10",
+      "review_status": "PENDING",
+      "source_notes": "Singular agent versus dual finite agreement is an intentionally negative candidate.",
+      "expert_signature": null
+    },
+    {
+      "id": "C11",
+      "review_status": "PENDING",
+      "source_notes": "Three-argument frame with variable order; formal linguistic verification pending.",
+      "expert_signature": null
+    }
+  ]
+}

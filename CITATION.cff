@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the released software version and accompanying paper when available."
+title: "Sanskrit Computational Language (SCL): experimental research software"
+type: software
+version: 0.8.6-rc1
+authors:
+  - family-names: Khara
+    given-names: Alankar Sukhdev Singh

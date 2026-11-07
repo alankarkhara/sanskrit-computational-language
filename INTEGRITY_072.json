@@ -1,0 +1,14 @@
+{
+  "baseline_archive": "scl_v0_7_1_correctness_benchmark.zip",
+  "candidate": "0.7.2",
+  "inherited_file_count": 168,
+  "missing_paths": [],
+  "modified_inherited_files": [],
+  "added_files": [
+    "BENCHMARK_RESULTS_072.json",
+    "INTEGRITY_072.json",
+    "RELEASE_072.md",
+    "benchmarks/sentence072.py",
+    "tests/test_sentence072.py"
+  ]
+}

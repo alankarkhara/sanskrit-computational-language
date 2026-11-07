@@ -1,0 +1,54 @@
+{
+  "regression": {
+    "tests": 493,
+    "passed": 493
+  },
+  "relative_to_091": {
+    "files": 289,
+    "unchanged": 289,
+    "missing": [],
+    "changed": [],
+    "added": 3
+  },
+  "relative_to_086": {
+    "files": 55,
+    "unchanged": 55,
+    "missing": [],
+    "changed": [],
+    "added": 237
+  },
+  "demo": {
+    "questions": [
+      {
+        "field": "object_type",
+        "reason": "missing"
+      },
+      {
+        "field": "result_type",
+        "reason": "missing"
+      },
+      {
+        "field": "effect",
+        "reason": "missing"
+      },
+      {
+        "field": "constraints",
+        "reason": "missing"
+      },
+      {
+        "field": "permission",
+        "reason": "missing"
+      }
+    ],
+    "unresolved_after_answer": [],
+    "state": "approved",
+    "events": 4,
+    "certificate_integrity": true
+  },
+  "publication_grade": {
+    "experimental_research_artifact": "candidate_pending_independent_reproduction_and_licensing",
+    "native_clarification_syntax": "not_integrated",
+    "formal_machine_proof": "not_completed",
+    "human_usability_study": "not_performed"
+  }
+}

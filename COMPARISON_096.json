@@ -1,0 +1,23 @@
+{
+  "inherited": 316,
+  "missing": [],
+  "modified": [],
+  "added": [
+    "TEST_RESULTS_096.log",
+    "core080/verified096.py",
+    "core080/verify096.py",
+    "tests/test_verified096.py"
+  ],
+  "regression_tests_passed": 532,
+  "proof_status": "not machine-checked",
+  "model_gateway_status": "simulation only",
+  "v096_scope": [
+    "Ed25519 signed owner approval",
+    "Ed25519 scoped authority",
+    "replay detection with supplied nonce set",
+    "strict pure-only operations",
+    "document count",
+    "Int64 addition",
+    "independent evidence verifier"
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "schema": "scl.gate.compatibility/1",
+  "results": [
+    {
+      "release": "scl_v0_3",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_3",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_audited",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_audited",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_1_integrity",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_1_integrity",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_2_formal",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_2_formal",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_3_proof",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_3_proof",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_4_certified",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_4_certified",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_5_symbolic",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_4_5_symbolic",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_alpha",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_alpha",
+      "example": "kāraka.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_beta",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_beta",
+      "example": "karaka_context_beta.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_stable_candidate",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_stable_candidate",
+      "example": "karaka_context_beta.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_integrity_candidate",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_integrity_candidate",
+      "example": "karaka_context_beta.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_sentence_checked",
+      "example": "gaṇanā.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    },
+    {
+      "release": "scl_v0_5_sentence_checked",
+      "example": "karaka_context_beta.scl",
+      "matched": true,
+      "original": {
+        "error": "TIMEOUT"
+      },
+      "latest": {
+        "error": "TIMEOUT"
+      }
+    }
+  ],
+  "matched": 26,
+  "total": 26,
+  "failures": []
+}

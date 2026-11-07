@@ -1,0 +1,16 @@
+{
+  "previous_source": "scl_demo086 / v0.8.6",
+  "inherited_files": 243,
+  "unchanged_inherited_files": 243,
+  "new_files": [
+    "TASK_PROTOCOL_087.md",
+    "core080/examples/task_agent_agent_087.scl",
+    "core080/examples/task_user_agent_087.scl",
+    "core080/tasks087.py",
+    "tasks087_cli.py",
+    "tests/test_tasks087.py"
+  ],
+  "tests_passed": 437,
+  "tests_failed": 0,
+  "mechanically_proved": false
+}

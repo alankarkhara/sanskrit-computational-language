@@ -1,0 +1,166 @@
+{
+  "versions": 32,
+  "unique_missing": [],
+  "versions_detail": {
+    "scl_v0_1": {
+      "archive_files": 7,
+      "retained": 7,
+      "missing": []
+    },
+    "scl_v0_2": {
+      "archive_files": 9,
+      "retained": 9,
+      "missing": []
+    },
+    "scl_v0_3": {
+      "archive_files": 11,
+      "retained": 11,
+      "missing": []
+    },
+    "scl_v0_4": {
+      "archive_files": 13,
+      "retained": 13,
+      "missing": []
+    },
+    "scl_v0_4_1_integrity": {
+      "archive_files": 16,
+      "retained": 16,
+      "missing": []
+    },
+    "scl_v0_4_2_formal": {
+      "archive_files": 19,
+      "retained": 19,
+      "missing": []
+    },
+    "scl_v0_4_3_proof": {
+      "archive_files": 25,
+      "retained": 25,
+      "missing": []
+    },
+    "scl_v0_4_4_certified": {
+      "archive_files": 28,
+      "retained": 28,
+      "missing": []
+    },
+    "scl_v0_4_5_symbolic": {
+      "archive_files": 32,
+      "retained": 32,
+      "missing": []
+    },
+    "scl_v0_4_audited": {
+      "archive_files": 14,
+      "retained": 14,
+      "missing": []
+    },
+    "scl_v0_5_1_soundness_gate": {
+      "archive_files": 71,
+      "retained": 71,
+      "missing": []
+    },
+    "scl_v0_5_2_assurance": {
+      "archive_files": 77,
+      "retained": 77,
+      "missing": []
+    },
+    "scl_v0_5_3_derivation": {
+      "archive_files": 82,
+      "retained": 82,
+      "missing": []
+    },
+    "scl_v0_5_4_panini_foundations": {
+      "archive_files": 86,
+      "retained": 86,
+      "missing": []
+    },
+    "scl_v0_5_5_typed_derivation": {
+      "archive_files": 90,
+      "retained": 90,
+      "missing": []
+    },
+    "scl_v0_5_6_verbal_derivation": {
+      "archive_files": 94,
+      "retained": 94,
+      "missing": []
+    },
+    "scl_v0_5_7_verbal_expansion": {
+      "archive_files": 98,
+      "retained": 98,
+      "missing": []
+    },
+    "scl_v0_5_8_verbal_complete": {
+      "archive_files": 102,
+      "retained": 102,
+      "missing": []
+    },
+    "scl_v0_5_9_rule_visibility": {
+      "archive_files": 106,
+      "retained": 106,
+      "missing": []
+    },
+    "scl_v0_5_alpha": {
+      "archive_files": 38,
+      "retained": 38,
+      "missing": []
+    },
+    "scl_v0_5_beta": {
+      "archive_files": 43,
+      "retained": 43,
+      "missing": []
+    },
+    "scl_v0_5_integrity_candidate": {
+      "archive_files": 56,
+      "retained": 56,
+      "missing": []
+    },
+    "scl_v0_5_sentence_checked": {
+      "archive_files": 60,
+      "retained": 60,
+      "missing": []
+    },
+    "scl_v0_5_stable_candidate": {
+      "archive_files": 47,
+      "retained": 47,
+      "missing": []
+    },
+    "scl_v0_6_1_structured": {
+      "archive_files": 114,
+      "retained": 114,
+      "missing": []
+    },
+    "scl_v0_6_2_typed_conditional": {
+      "archive_files": 118,
+      "retained": 118,
+      "missing": []
+    },
+    "scl_v0_6_3_sorted_certified": {
+      "archive_files": 123,
+      "retained": 123,
+      "missing": []
+    },
+    "scl_v0_6_4_native_ir": {
+      "archive_files": 128,
+      "retained": 128,
+      "missing": []
+    },
+    "scl_v0_6_5_rule_kernel": {
+      "archive_files": 133,
+      "retained": 133,
+      "missing": []
+    },
+    "scl_v0_6_6_evidence_integrity": {
+      "archive_files": 138,
+      "retained": 138,
+      "missing": []
+    },
+    "scl_v0_6_7_authenticated_states": {
+      "archive_files": 143,
+      "retained": 143,
+      "missing": []
+    },
+    "scl_v0_6_rule_execution": {
+      "archive_files": 110,
+      "retained": 110,
+      "missing": []
+    }
+  }
+}

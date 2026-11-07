@@ -1,0 +1,201 @@
+{
+  "protocol": "Controlled 18-case nominal morphology benchmark; shared morphological lexicon; warmed Python process; 5 batches; median ns/case; illustrative first-match baseline",
+  "cases": [
+    {
+      "surface": "rāmaḥ",
+      "constraints": {},
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "rāmam",
+      "constraints": {},
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "rāmeṇa",
+      "constraints": {},
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "rāmābhyām",
+      "constraints": {},
+      "gold": "AMBIGUOUS"
+    },
+    {
+      "surface": "rāmābhyām",
+      "constraints": {
+        "vibhakti": "tṛtīyā"
+      },
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "rāmābhyām",
+      "constraints": {
+        "vibhakti": "caturthī"
+      },
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "rāmābhyām",
+      "constraints": {
+        "vibhakti": "pañcamī"
+      },
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "rāmābhyām",
+      "constraints": {
+        "vibhakti": "prathamā"
+      },
+      "gold": "NO_ANALYSIS"
+    },
+    {
+      "surface": "phalam",
+      "constraints": {},
+      "gold": "AMBIGUOUS"
+    },
+    {
+      "surface": "phalam",
+      "constraints": {
+        "vibhakti": "dvitīyā"
+      },
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "phalam",
+      "constraints": {
+        "vibhakti": "prathamā"
+      },
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "phalāni",
+      "constraints": {},
+      "gold": "AMBIGUOUS"
+    },
+    {
+      "surface": "rāmau",
+      "constraints": {},
+      "gold": "AMBIGUOUS"
+    },
+    {
+      "surface": "rāmau",
+      "constraints": {
+        "vacana": "dvivacana"
+      },
+      "gold": "AMBIGUOUS"
+    },
+    {
+      "surface": "sītāyām",
+      "constraints": {},
+      "gold": "UNIQUE"
+    },
+    {
+      "surface": "latābhyām",
+      "constraints": {},
+      "gold": "AMBIGUOUS"
+    },
+    {
+      "surface": "abcdefgh",
+      "constraints": {},
+      "gold": "NO_ANALYSIS"
+    },
+    {
+      "surface": "rāmābhyām",
+      "constraints": {
+        "vacana": "bahuvacana"
+      },
+      "gold": "NO_ANALYSIS"
+    }
+  ],
+  "results": {
+    "SCL evidence gate": {
+      "correct": 17,
+      "total": 18,
+      "false_unique_acceptances": 0,
+      "missed_ambiguities": 0,
+      "median_ns_per_case": 1075277,
+      "predictions": [
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "AMBIGUOUS",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "AMBIGUOUS",
+        "UNIQUE",
+        "UNIQUE",
+        "AMBIGUOUS",
+        "AMBIGUOUS",
+        "AMBIGUOUS",
+        "UNIQUE",
+        "AMBIGUOUS",
+        "NO_ANALYSIS",
+        "NO_ANALYSIS"
+      ]
+    },
+    "First-match parser": {
+      "correct": 11,
+      "total": 18,
+      "false_unique_acceptances": 6,
+      "missed_ambiguities": 6,
+      "median_ns_per_case": 523,
+      "predictions": [
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "NO_ANALYSIS"
+      ]
+    },
+    "Typed constraint parser": {
+      "correct": 17,
+      "total": 18,
+      "false_unique_acceptances": 0,
+      "missed_ambiguities": 0,
+      "median_ns_per_case": 1280,
+      "predictions": [
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "AMBIGUOUS",
+        "UNIQUE",
+        "UNIQUE",
+        "UNIQUE",
+        "NO_ANALYSIS",
+        "AMBIGUOUS",
+        "UNIQUE",
+        "UNIQUE",
+        "AMBIGUOUS",
+        "AMBIGUOUS",
+        "AMBIGUOUS",
+        "UNIQUE",
+        "AMBIGUOUS",
+        "NO_ANALYSIS",
+        "NO_ANALYSIS"
+      ]
+    }
+  },
+  "limitations": [
+    "Golden labels are internally constructed, not externally expert reviewed",
+    "Both reference baselines are Python implementations, not evaluations of programming-language ecosystems",
+    "Shared morphology lexicon means accuracy measures disambiguation policy, not lexicon quality",
+    "Microbenchmarks depend on hardware, runtime and Python implementation; do not generalize speed claims",
+    "SCL and typed baseline follow the same exhaustive analysis policy by design"
+  ]
+}

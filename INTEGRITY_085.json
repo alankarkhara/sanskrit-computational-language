@@ -1,0 +1,15 @@
+{
+  "baseline": "v0.8.4",
+  "new": "v0.8.5",
+  "inherited_files": 222,
+  "missing": [],
+  "changed": [],
+  "added": [
+    "NATIVE_AGENT_085.md",
+    "core080/examples/native_agents_085.scl",
+    "core080/native_agents085.py",
+    "native085_cli.py",
+    "tests/test_native_agents085.py"
+  ],
+  "tests_passed": 425
+}

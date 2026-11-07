@@ -1,0 +1,66 @@
+{
+  "schema": "scl.external_audit/1",
+  "fixtures": [
+    {
+      "input": "dadhi + atra",
+      "expected": "dadhyatra",
+      "actual": "dadhyatra",
+      "actual_rule": "6.1.77",
+      "source": "https://www.learnsanskrit.org/panini/vowel/",
+      "review": "published pedagogical example; no independent reviewer sign-off",
+      "counterfactual_candidates": [
+        {
+          "sutra": "6.1.77",
+          "raw_candidate": "dadhyatra",
+          "eligible_after_exception": true
+        }
+      ],
+      "correct": true
+    },
+    {
+      "input": "dadhi + indraḥ",
+      "expected": "dadhīndraḥ",
+      "actual": "dadhīndraḥ",
+      "actual_rule": "6.1.101",
+      "source": "https://www.learnsanskrit.org/panini/vowel/",
+      "review": "published pedagogical example; no independent reviewer sign-off",
+      "counterfactual_candidates": [
+        {
+          "sutra": "6.1.77",
+          "raw_candidate": "dadhyindraḥ",
+          "eligible_after_exception": false
+        },
+        {
+          "sutra": "6.1.101",
+          "raw_candidate": "dadhīndraḥ",
+          "eligible_after_exception": true
+        }
+      ],
+      "correct": true
+    },
+    {
+      "input": "madhu + atra",
+      "expected": "madhvatra",
+      "actual": "madhvatra",
+      "actual_rule": "6.1.77",
+      "source": "https://brijs.github.io/ashtadhyayi-explorer/sutra/6.1.77/",
+      "review": "published example; no independent reviewer sign-off",
+      "counterfactual_candidates": [
+        {
+          "sutra": "6.1.77",
+          "raw_candidate": "madhvatra",
+          "eligible_after_exception": true
+        }
+      ],
+      "correct": true
+    }
+  ],
+  "passed": 3,
+  "total": 3,
+  "externally_annotated_sentence_corpus": {
+    "status": "NOT_EVALUATED",
+    "source": "https://github.com/UniversalDependencies/UD_Sanskrit-UFAL",
+    "reason": "No UD CoNLL-U file fetched into this offline runtime; no fabricated corpus scores"
+  },
+  "limits": "Published sandhi examples are source-attributed but do not constitute scholarly review of complete derivation chains."
+}

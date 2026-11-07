@@ -1,0 +1,273 @@
+{
+  "versions_audited": 32,
+  "latest_files": 147,
+  "archives_present": {
+    "scl_v0_1": true,
+    "scl_v0_2": true,
+    "scl_v0_3": true,
+    "scl_v0_4": true,
+    "scl_v0_4_1_integrity": true,
+    "scl_v0_4_2_formal": true,
+    "scl_v0_4_3_proof": true,
+    "scl_v0_4_4_certified": true,
+    "scl_v0_4_5_symbolic": true,
+    "scl_v0_4_audited": true,
+    "scl_v0_5_1_soundness_gate": true,
+    "scl_v0_5_2_assurance": true,
+    "scl_v0_5_3_derivation": true,
+    "scl_v0_5_4_panini_foundations": true,
+    "scl_v0_5_5_typed_derivation": true,
+    "scl_v0_5_6_verbal_derivation": true,
+    "scl_v0_5_7_verbal_expansion": true,
+    "scl_v0_5_8_verbal_complete": true,
+    "scl_v0_5_9_rule_visibility": true,
+    "scl_v0_5_alpha": true,
+    "scl_v0_5_beta": true,
+    "scl_v0_5_integrity_candidate": true,
+    "scl_v0_5_sentence_checked": true,
+    "scl_v0_5_stable_candidate": true,
+    "scl_v0_6_1_structured": true,
+    "scl_v0_6_2_typed_conditional": true,
+    "scl_v0_6_3_sorted_certified": true,
+    "scl_v0_6_4_native_ir": true,
+    "scl_v0_6_5_rule_kernel": true,
+    "scl_v0_6_6_evidence_integrity": true,
+    "scl_v0_6_7_authenticated_states": true,
+    "scl_v0_6_rule_execution": true
+  },
+  "per_release": {
+    "scl_v0_1": {
+      "files": 2,
+      "retained_paths": 2,
+      "byte_identical_files": 0,
+      "missing": []
+    },
+    "scl_v0_2": {
+      "files": 2,
+      "retained_paths": 2,
+      "byte_identical_files": 0,
+      "missing": []
+    },
+    "scl_v0_3": {
+      "files": 2,
+      "retained_paths": 2,
+      "byte_identical_files": 0,
+      "missing": []
+    },
+    "scl_v0_4": {
+      "files": 2,
+      "retained_paths": 2,
+      "byte_identical_files": 1,
+      "missing": []
+    },
+    "scl_v0_4_1_integrity": {
+      "files": 3,
+      "retained_paths": 3,
+      "byte_identical_files": 2,
+      "missing": []
+    },
+    "scl_v0_4_2_formal": {
+      "files": 5,
+      "retained_paths": 5,
+      "byte_identical_files": 4,
+      "missing": []
+    },
+    "scl_v0_4_3_proof": {
+      "files": 6,
+      "retained_paths": 6,
+      "byte_identical_files": 5,
+      "missing": []
+    },
+    "scl_v0_4_4_certified": {
+      "files": 7,
+      "retained_paths": 7,
+      "byte_identical_files": 6,
+      "missing": []
+    },
+    "scl_v0_4_5_symbolic": {
+      "files": 8,
+      "retained_paths": 8,
+      "byte_identical_files": 7,
+      "missing": []
+    },
+    "scl_v0_4_audited": {
+      "files": 2,
+      "retained_paths": 2,
+      "byte_identical_files": 1,
+      "missing": []
+    },
+    "scl_v0_5_1_soundness_gate": {
+      "files": 15,
+      "retained_paths": 15,
+      "byte_identical_files": 14,
+      "missing": []
+    },
+    "scl_v0_5_2_assurance": {
+      "files": 16,
+      "retained_paths": 16,
+      "byte_identical_files": 15,
+      "missing": []
+    },
+    "scl_v0_5_3_derivation": {
+      "files": 17,
+      "retained_paths": 17,
+      "byte_identical_files": 16,
+      "missing": []
+    },
+    "scl_v0_5_4_panini_foundations": {
+      "files": 18,
+      "retained_paths": 18,
+      "byte_identical_files": 17,
+      "missing": []
+    },
+    "scl_v0_5_5_typed_derivation": {
+      "files": 19,
+      "retained_paths": 19,
+      "byte_identical_files": 18,
+      "missing": []
+    },
+    "scl_v0_5_6_verbal_derivation": {
+      "files": 20,
+      "retained_paths": 20,
+      "byte_identical_files": 19,
+      "missing": []
+    },
+    "scl_v0_5_7_verbal_expansion": {
+      "files": 21,
+      "retained_paths": 21,
+      "byte_identical_files": 20,
+      "missing": []
+    },
+    "scl_v0_5_8_verbal_complete": {
+      "files": 22,
+      "retained_paths": 22,
+      "byte_identical_files": 21,
+      "missing": []
+    },
+    "scl_v0_5_9_rule_visibility": {
+      "files": 23,
+      "retained_paths": 23,
+      "byte_identical_files": 22,
+      "missing": []
+    },
+    "scl_v0_5_alpha": {
+      "files": 9,
+      "retained_paths": 9,
+      "byte_identical_files": 8,
+      "missing": []
+    },
+    "scl_v0_5_beta": {
+      "files": 10,
+      "retained_paths": 10,
+      "byte_identical_files": 9,
+      "missing": []
+    },
+    "scl_v0_5_integrity_candidate": {
+      "files": 13,
+      "retained_paths": 13,
+      "byte_identical_files": 12,
+      "missing": []
+    },
+    "scl_v0_5_sentence_checked": {
+      "files": 14,
+      "retained_paths": 14,
+      "byte_identical_files": 13,
+      "missing": []
+    },
+    "scl_v0_5_stable_candidate": {
+      "files": 11,
+      "retained_paths": 11,
+      "byte_identical_files": 10,
+      "missing": []
+    },
+    "scl_v0_6_1_structured": {
+      "files": 25,
+      "retained_paths": 25,
+      "byte_identical_files": 24,
+      "missing": []
+    },
+    "scl_v0_6_2_typed_conditional": {
+      "files": 26,
+      "retained_paths": 26,
+      "byte_identical_files": 25,
+      "missing": []
+    },
+    "scl_v0_6_3_sorted_certified": {
+      "files": 27,
+      "retained_paths": 27,
+      "byte_identical_files": 26,
+      "missing": []
+    },
+    "scl_v0_6_4_native_ir": {
+      "files": 28,
+      "retained_paths": 28,
+      "byte_identical_files": 27,
+      "missing": []
+    },
+    "scl_v0_6_5_rule_kernel": {
+      "files": 28,
+      "retained_paths": 28,
+      "byte_identical_files": 27,
+      "missing": []
+    },
+    "scl_v0_6_6_evidence_integrity": {
+      "files": 138,
+      "retained_paths": 138,
+      "byte_identical_files": 137,
+      "missing": []
+    },
+    "scl_v0_6_7_authenticated_states": {
+      "files": 143,
+      "retained_paths": 143,
+      "byte_identical_files": 142,
+      "missing": []
+    },
+    "scl_v0_6_rule_execution": {
+      "files": 24,
+      "retained_paths": 24,
+      "byte_identical_files": 23,
+      "missing": []
+    }
+  },
+  "historical_paths_missing_in_068": [],
+  "changed_from_067": [
+    "scl.py"
+  ],
+  "example_comparisons": {
+    "total": 4,
+    "matching": 4,
+    "mismatches": []
+  },
+  "all_comparisons": [
+    {
+      "release": "scl_v0_6_6_evidence_integrity",
+      "example": "gaṇanā.scl",
+      "match": true,
+      "prior_status": 0,
+      "latest_status": 0
+    },
+    {
+      "release": "scl_v0_6_6_evidence_integrity",
+      "example": "karaka_context_beta.scl",
+      "match": true,
+      "prior_status": 0,
+      "latest_status": 0
+    },
+    {
+      "release": "scl_v0_6_7_authenticated_states",
+      "example": "gaṇanā.scl",
+      "match": true,
+      "prior_status": 0,
+      "latest_status": 0
+    },
+    {
+      "release": "scl_v0_6_7_authenticated_states",
+      "example": "karaka_context_beta.scl",
+      "match": true,
+      "prior_status": 0,
+      "latest_status": 0
+    }
+  ],
+  "independent_lean_checked": false,
+  "external_scholar_review": false
+}

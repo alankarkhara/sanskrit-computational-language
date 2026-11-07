@@ -1,0 +1,796 @@
+{
+  "schema": "scl-finite-model-083",
+  "scope": "finite selected expressions; not mathematical proof",
+  "rewrite_rules": [
+    "add-zero-left",
+    "add-zero-right",
+    "sub-zero",
+    "mul-one-left",
+    "mul-one-right",
+    "if-true",
+    "if-false"
+  ],
+  "cases": 153,
+  "cases_with_rewrites": 153,
+  "observational_differences_high_fuel": [],
+  "exact_fuel_counterexample": {
+    "source": [
+      "error",
+      "evaluation step budget exhausted"
+    ],
+    "target": [
+      "value",
+      [
+        1
+      ]
+    ]
+  },
+  "fuel_equivalence": false,
+  "outcomes": [
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "yoga-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "vyavakalana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-left",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "guṇana-right",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-satya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "value",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "if-asatya",
+      "observation": "error",
+      "rewrite_steps": 1
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 3
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 3
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 3
+    },
+    {
+      "category": "nested",
+      "observation": "value",
+      "rewrite_steps": 3
+    },
+    {
+      "category": "nested",
+      "observation": "error",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "error",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "error",
+      "rewrite_steps": 2
+    },
+    {
+      "category": "nested",
+      "observation": "error",
+      "rewrite_steps": 2
+    }
+  ]
+}

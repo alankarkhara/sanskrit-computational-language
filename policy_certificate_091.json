@@ -1,0 +1,70 @@
+{
+  "schema": "scl-paninian-task-policy-091",
+  "participants": [
+    "AgentA",
+    "AgentB",
+    "User"
+  ],
+  "tasks": {
+    "child": {
+      "owner": "AgentA",
+      "worker": "AgentB",
+      "action": "saṃkṣip",
+      "parent": "parent",
+      "status": "accepted",
+      "constraints": [
+        "no_modify",
+        "source_only"
+      ],
+      "exceptions": [],
+      "effect": "śuddha"
+    },
+    "parent": {
+      "owner": "User",
+      "worker": "AgentA",
+      "action": "saṃkṣip",
+      "parent": null,
+      "status": "accepted",
+      "constraints": [
+        "no_modify",
+        "source_only"
+      ],
+      "exceptions": [],
+      "effect": "śuddha"
+    }
+  },
+  "events": [
+    {
+      "event": "propose",
+      "id": "parent"
+    },
+    {
+      "event": "constraint",
+      "id": "parent",
+      "rule": "source_only"
+    },
+    {
+      "event": "constraint",
+      "id": "parent",
+      "rule": "no_modify"
+    },
+    {
+      "event": "accept",
+      "id": "parent"
+    },
+    {
+      "event": "propose",
+      "id": "child"
+    },
+    {
+      "event": "inherit",
+      "parent": "parent",
+      "child": "child"
+    },
+    {
+      "event": "accept",
+      "id": "child"
+    }
+  ],
+  "digest": "37195b5ed598083b83475c20a7a33e07345f215456187110dce735025e9aadaa"
+}

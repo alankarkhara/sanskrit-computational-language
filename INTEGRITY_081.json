@@ -1,0 +1,13 @@
+{
+  "baseline": "scl_v0_8_0_semantic_core.zip",
+  "baseline_file_count": 199,
+  "missing_inherited": [],
+  "changed_inherited": [],
+  "new_files": [
+    "RULE_COMPILER_081.md",
+    "core080/rules081.py",
+    "core081_cli.py",
+    "tests/test_core081.py"
+  ],
+  "test_suite": "392 tests passed"
+}

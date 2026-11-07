@@ -1,0 +1,40 @@
+{
+  "baseline": "0.6.7",
+  "comparisons": [
+    {
+      "example": "ga\u1e47an\u0101.scl",
+      "match": true
+    },
+    {
+      "example": "karaka_context_beta.scl",
+      "match": true
+    },
+    {
+      "example": "k\u0101raka.scl",
+      "match": true
+    },
+    {
+      "example": "k\u0101raka_v02.scl",
+      "match": true
+    },
+    {
+      "example": "morphology_alpha.scl",
+      "match": true
+    },
+    {
+      "example": "namaste.scl",
+      "match": true
+    },
+    {
+      "example": "native_sandhi_064.scl",
+      "match": true
+    },
+    {
+      "example": "niyama.scl",
+      "match": true
+    }
+  ],
+  "matched": 8,
+  "tested": 8,
+  "full_historical_replay": "not completed: timed out"
+}

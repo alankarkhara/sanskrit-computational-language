@@ -1,0 +1,34 @@
+[
+  {
+    "file": "gaṇanā.scl",
+    "match": true
+  },
+  {
+    "file": "karaka_context_beta.scl",
+    "match": true
+  },
+  {
+    "file": "kāraka.scl",
+    "match": true
+  },
+  {
+    "file": "kāraka_v02.scl",
+    "match": true
+  },
+  {
+    "file": "morphology_alpha.scl",
+    "match": true
+  },
+  {
+    "file": "namaste.scl",
+    "match": true
+  },
+  {
+    "file": "niyama.scl",
+    "match": true
+  },
+  {
+    "file": "vibhakti.scl",
+    "match": true
+  }
+]

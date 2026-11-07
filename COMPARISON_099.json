@@ -1,0 +1,17 @@
+{
+  "release": "0.9.9",
+  "baseline": "0.9.8",
+  "inherited_files": 332,
+  "missing_files": [],
+  "intentionally_changed_files": [
+    "tests/test_independent_peers088.py",
+    "core080/bridge097.py"
+  ],
+  "new_files": [
+    "tests/test_integrated_replay099.py"
+  ],
+  "tests_passed": 550,
+  "strict_resource_warning_run": true,
+  "real_model_trials": "not performed",
+  "machine_checked_formal_proofs": "not performed"
+}

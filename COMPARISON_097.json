@@ -1,0 +1,11 @@
+{
+  "previous": "0.9.6",
+  "inherited_byte_identical": 322,
+  "missing_or_modified": [],
+  "suite_exit": 0,
+  "summary": "3/unittest/case.py:606: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='UTF-8'>\n  if method() is not None:\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n----------------------------------------------------------------------\nRan 539 tests in 2.254s\n\nOK\n",
+  "new_bounded_matrix_cases": 120,
+  "formal_machine_proof": false,
+  "live_models_tested": false,
+  "nonprogrammer_study": false
+}

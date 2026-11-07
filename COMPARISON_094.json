@@ -1,0 +1,23 @@
+{
+  "baseline": "v0.9.3",
+  "release": "v0.9.4",
+  "baseline_file_count": 304,
+  "retained_identical": 304,
+  "missing": [],
+  "modified": [],
+  "added_files": [
+    "RELEASE_094.md",
+    "TEST_RESULTS_094.log",
+    "core080/unified094.py",
+    "tests/test_signed094.py",
+    "tests/test_unified094.py"
+  ],
+  "unittest_exit": 0,
+  "unittest_tail": "/usr/lib/python3.13/unittest/case.py:606: ResourceWarning: unclosed file <_io.TextIOWrapper name=3 encoding='UTF-8'>\n  if method() is not None:\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n/usr/lib/python3.13/unittest/case.py:606: ResourceWarning: unclosed file <_io.TextIOWrapper name=5 encoding='UTF-8'>\n  if method() is not None:\nResourceWarning: Enable tracemalloc to get the object allocation traceback\n----------------------------------------------------------------------\nRan 513 tests in 2.296s\n\nOK\n",
+  "comparison": {
+    "v0.8.6": "publication gate and script-driven agent protocol",
+    "v0.9.2": "separate clarification kernel",
+    "v0.9.3": "native SCL dialogue and separate process clarification",
+    "v0.9.4": "canonical contract kernel and restricted signed execution bridge"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "schema": "scl-native-clarification-093",
+  "task_id": "task42",
+  "participants": {
+    "User": "manuṣya",
+    "AgentB": "abhikartṛ"
+  },
+  "objects": {
+    "doc42": "UTF8Document"
+  },
+  "owner": "User",
+  "initial": {},
+  "actions": [
+    {
+      "kind": "ask",
+      "actor": "AgentB",
+      "issues": [
+        {
+          "field": "object_type",
+          "reason": "missing"
+        },
+        {
+          "field": "result_type",
+          "reason": "missing"
+        },
+        {
+          "field": "effect",
+          "reason": "missing"
+        },
+        {
+          "field": "constraints",
+          "reason": "missing"
+        },
+        {
+          "field": "permission",
+          "reason": "missing"
+        }
+      ]
+    },
+    {
+      "kind": "answer",
+      "field": "object_type",
+      "remaining": [
+        {
+          "field": "result_type",
+          "reason": "missing"
+        },
+        {
+          "field": "effect",
+          "reason": "missing"
+        },
+        {
+          "field": "constraints",
+          "reason": "missing"
+        },
+        {
+          "field": "permission",
+          "reason": "missing"
+        }
+      ]
+    },
+    {
+      "kind": "answer",
+      "field": "result_type",
+      "remaining": [
+        {
+          "field": "effect",
+          "reason": "missing"
+        },
+        {
+          "field": "constraints",
+          "reason": "missing"
+        },
+        {
+          "field": "permission",
+          "reason": "missing"
+        }
+      ]
+    },
+    {
+      "kind": "answer",
+      "field": "effect",
+      "remaining": [
+        {
+          "field": "constraints",
+          "reason": "missing"
+        },
+        {
+          "field": "permission",
+          "reason": "missing"
+        }
+      ]
+    },
+    {
+      "kind": "answer",
+      "field": "constraints",
+      "remaining": [
+        {
+          "field": "permission",
+          "reason": "missing"
+        }
+      ]
+    },
+    {
+      "kind": "answer",
+      "field": "permission",
+      "remaining": []
+    },
+    {
+      "kind": "propose"
+    },
+    {
+      "kind": "approve",
+      "actor": "User"
+    }
+  ],
+  "clarification": {
+    "schema": "scl-clarification-092",
+    "task_id": "task42",
+    "state": "approved",
+    "contract": {
+      "requester": "User",
+      "executor": "AgentB",
+      "operation": "gaṇaya_śabdān",
+      "object_id": "doc42",
+      "object_type": "UTF8Document",
+      "result_type": "Int64",
+      "effect": "śuddha",
+      "constraints": [
+        "source_only",
+        "no_modify"
+      ],
+      "permission": "internal"
+    },
+    "events": [
+      {
+        "sequence": 1,
+        "kind": "clarification_request",
+        "by": "AgentB",
+        "to": "User",
+        "issues": [
+          {
+            "field": "object_type",
+            "reason": "missing"
+          },
+          {
+            "field": "result_type",
+            "reason": "missing"
+          },
+          {
+            "field": "effect",
+            "reason": "missing"
+          },
+          {
+            "field": "constraints",
+            "reason": "missing"
+          },
+          {
+            "field": "permission",
+            "reason": "missing"
+          }
+        ],
+        "previous": "GENESIS",
+        "hash": "bb0b644aa653a5c57cbd8e058a7995880345843f44f0ff7c699db046c1cf78c3"
+      },
+      {
+        "sequence": 2,
+        "kind": "answer",
+        "by": "User",
+        "fields": [
+          "object_type"
+        ],
+        "values": {
+          "object_type": "UTF8Document"
+        },
+        "previous": "bb0b644aa653a5c57cbd8e058a7995880345843f44f0ff7c699db046c1cf78c3",
+        "hash": "904d5deedaaccee5a3f376a632ea05287b8986230fd26cae9ca88e5c4fa960a4"
+      },
+      {
+        "sequence": 3,
+        "kind": "answer",
+        "by": "User",
+        "fields": [
+          "result_type"
+        ],
+        "values": {
+          "result_type": "Int64"
+        },
+        "previous": "904d5deedaaccee5a3f376a632ea05287b8986230fd26cae9ca88e5c4fa960a4",
+        "hash": "4a7f9156d90bc72625777ed418cf430ab964b51cc0a2da967fa6c0abb8c54d5b"
+      },
+      {
+        "sequence": 4,
+        "kind": "answer",
+        "by": "User",
+        "fields": [
+          "effect"
+        ],
+        "values": {
+          "effect": "śuddha"
+        },
+        "previous": "4a7f9156d90bc72625777ed418cf430ab964b51cc0a2da967fa6c0abb8c54d5b",
+        "hash": "b2e2394af3818558ef9fb7da0868ac7e01187ab77ab0cde44e24130a4a7ceb5c"
+      },
+      {
+        "sequence": 5,
+        "kind": "answer",
+        "by": "User",
+        "fields": [
+          "constraints"
+        ],
+        "values": {
+          "constraints": [
+            "source_only",
+            "no_modify"
+          ]
+        },
+        "previous": "b2e2394af3818558ef9fb7da0868ac7e01187ab77ab0cde44e24130a4a7ceb5c",
+        "hash": "485c52a3ec1c8fad79c1372f01984c6f2c8676796bbb786cccd26149d1f9fd6d"
+      },
+      {
+        "sequence": 6,
+        "kind": "answer",
+        "by": "User",
+        "fields": [
+          "permission"
+        ],
+        "values": {
+          "permission": "internal"
+        },
+        "previous": "485c52a3ec1c8fad79c1372f01984c6f2c8676796bbb786cccd26149d1f9fd6d",
+        "hash": "2412a10bfe2889129a3d7353d69b48e150eb8fecd960c5e5ebfd6652ecde1939"
+      },
+      {
+        "sequence": 7,
+        "kind": "proposed",
+        "by": "User",
+        "digest": "0f47f793569c9e723517b7fe63d18a9e50de50e533ab0d55961a29691b8dc40f",
+        "previous": "2412a10bfe2889129a3d7353d69b48e150eb8fecd960c5e5ebfd6652ecde1939",
+        "hash": "0d8125e33b59321b8a27fbc0ca827c521fc375b129378eee7aef51063dda9291"
+      },
+      {
+        "sequence": 8,
+        "kind": "approved",
+        "by": "User",
+        "contract_hash": "0f47f793569c9e723517b7fe63d18a9e50de50e533ab0d55961a29691b8dc40f",
+        "previous": "0d8125e33b59321b8a27fbc0ca827c521fc375b129378eee7aef51063dda9291",
+        "hash": "3e1bd017ad1483bfae39b2b301ed72f6caae05b2fbcb0c423b7c6980c7576df5"
+      }
+    ],
+    "digest": "2ad4e1de5f5de3a9a9ca5788c5e41e9ec1acfd9167f463275c80c9ad6dac1f41"
+  },
+  "digest": "e00a6b23aa44b0148220dbc459cf0055e35a86bf9ab27edc3967dcbb23cb20dc"
+}

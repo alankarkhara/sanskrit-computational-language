@@ -1,0 +1,12 @@
+{
+  "baseline": "0.8.3",
+  "release": "0.8.4",
+  "inherited_files": 217,
+  "missing": [],
+  "modified": [],
+  "new_files": [
+    "core080/agents084.py",
+    "core080/resource084.py",
+    "tests/test_resource_agent084.py"
+  ]
+}

@@ -1,0 +1,2 @@
+# Contributing (proposed policy)
+Changes to the strict SCL core require typed examples, negative cases, resource-observation tests and a claims-register update. No new rewrite may be enabled without declared applicability premises and independent checker support. Any modifications to inherited files must be listed with rationale and compatibility evidence. Treat grammar of historical Sanskrit as an optional module; do not expand it as a substitute for programming-language semantics. Contributions are not accepted under a final license until the rights holder selects one.

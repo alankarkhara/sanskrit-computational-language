@@ -1,0 +1,37 @@
+{
+  "corpus": "/mnt/data/scl_v0_7_6_external_sample/external/ufal_published_excerpt_076.conllu",
+  "sentences": 3,
+  "restricted_analyses": 0,
+  "coverage": 0.0,
+  "UD_LAS": null,
+  "UD_UAS": null,
+  "reason": "No validated dependency label conversion or matching tokenization; explicit role mapping is required",
+  "observations": [
+    {
+      "id": "panc0.s1",
+      "status": "abstain",
+      "reason": "Unsupported finite verb: कथामुखम्"
+    },
+    {
+      "id": "panc0.s2",
+      "status": "abstain",
+      "reason": "Unsupported finite verb: ।"
+    },
+    {
+      "id": "panc0.s2b",
+      "status": "abstain",
+      "reason": "Unsupported finite verb: ।"
+    }
+  ],
+  "counts": {
+    "sentences": 3,
+    "syntactic_words": 13,
+    "gold_labeled_edges": 13,
+    "multiword_tokens_excluded": 2
+  },
+  "evaluation_class": "small externally published excerpt; no trained parser; no UD-to-karaka mapping",
+  "source": "https://github.com/UniversalDependencies/UD_Sanskrit-UFAL/blob/master/sa_ufal-ud-test.conllu",
+  "observed_accuracy": null,
+  "conditional_precision": null,
+  "conditional_recall": null
+}

@@ -1,0 +1,30 @@
+{
+  "case_count": 360,
+  "gold_source": "mechanically generated from the same finite inflection lexicon; NOT independent Sanskrit expert review",
+  "results": {
+    "SCL evidence gate": {
+      "correct": 360,
+      "total": 360,
+      "false_unique": 0,
+      "median_ns_per_case": 622796
+    },
+    "Typed-constraint Python": {
+      "correct": 360,
+      "total": 360,
+      "false_unique": 0,
+      "median_ns_per_case": 909
+    },
+    "Lark Earley + morphology": {
+      "correct": 360,
+      "total": 360,
+      "false_unique": 0,
+      "median_ns_per_case": 438691
+    }
+  },
+  "limitations": [
+    "Shared finite lexicon, not an independent grammar accuracy evaluation",
+    "Lark baseline parses token forms; morphological feature assignments still use the shared finite morphology engine",
+    "Synthetic cases do not reflect natural Sanskrit frequency",
+    "Environment-specific Python timings; not a cross-language benchmark"
+  ]
+}

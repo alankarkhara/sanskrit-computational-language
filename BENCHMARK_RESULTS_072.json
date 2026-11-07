@@ -1,0 +1,56 @@
+{
+  "schema": "scl.benchmark.sentences/0.7.2",
+  "sentence_count": 28,
+  "gold_source": "Separate hand-coded finite CSP; not independent Sanskrit-scholar validation",
+  "results": {
+    "SCL dependency analyzer": {
+      "exact_matches": 28,
+      "cases": 28,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "median_ns_per_sentence": 358106,
+      "mismatches": []
+    },
+    "Independent finite CSP": {
+      "exact_matches": 28,
+      "cases": 28,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "median_ns_per_sentence": 1621,
+      "mismatches": []
+    },
+    "Lark Earley + independent CSP": {
+      "exact_matches": 28,
+      "cases": 28,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "median_ns_per_sentence": 3648609,
+      "mismatches": []
+    }
+  },
+  "rewrite_interactions": {
+    "joinable": {
+      "expected": "joinable",
+      "actual": "joinable"
+    },
+    "divergent": {
+      "expected": "divergent",
+      "actual": "divergent"
+    },
+    "exception": {
+      "expected": "single",
+      "actual": "single"
+    },
+    "cycle": {
+      "expected": "cycle",
+      "actual": "cycle"
+    }
+  },
+  "limitations": [
+    "Known finite surface inventory; no unrestricted sandhi segmentation",
+    "The independent CSP shares a deliberately explicit case-to-role policy, not a classical grammar implementation",
+    "Lark is only the syntactic front end; independent CSP handles semantic constraints",
+    "Synthetic rewrite interactions are not authentic Pāṇinian critical pairs",
+    "Runtime observations depend on local environment and initialization"
+  ]
+}

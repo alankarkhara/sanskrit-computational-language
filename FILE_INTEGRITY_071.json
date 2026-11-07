@@ -1,0 +1,18 @@
+{
+  "baseline": "v0.7.0",
+  "release": "v0.7.1",
+  "prior_files": 163,
+  "missing_paths": [],
+  "changed_inherited_paths": [
+    "grammar/ambiguity069.py",
+    "morphology/engine.py",
+    "tests/test_benchmark070.py"
+  ],
+  "new_paths": [
+    "benchmarks/expanded071.py",
+    "tests/test_correctness071.py"
+  ],
+  "regression_tests_passed": 333,
+  "regression_tests_total": 333,
+  "note": "Historical behavior may intentionally change for incorrectly generated forms; tests cannot prove universal equivalence."
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.8.9",
+  "separate_worker_pid": true,
+  "verified": true,
+  "value": 6,
+  "document_digest": "40ff342ae291391ba49c1c01eaa7db3b1516261870fb90a746ffbc275178f335",
+  "transport": "local standard-input/output subprocess",
+  "signed_request": true,
+  "signed_grant": true,
+  "signed_result": true
+}
